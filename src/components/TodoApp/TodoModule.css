@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+}
+
+
+.todobody {
+    background-color: gray;
+    width: 60%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+form button {
+    cursor: pointer;
+}
+
+
+.buttonbody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.todoTextBody h3 {
+    text-align: left;
+    margin-left: 1rem;
+}
+
+.todoTextBody p {
+    margin: 1rem;
+}
+
+.buttonbody button {
+    padding: 5px 10px;
+    background-color: orangered;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    transition: .4s;
+}
+
+.buttonbody button:hover {
+    background-color: orange;
+}
